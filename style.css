@@ -243,3 +243,103 @@ section {
     color: white;
     transition-duration: 0.3s;
 }
+
+
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .logo a {
+        font-size: 30px;
+        margin-left: 0;
+    }
+
+    .navmenu {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        margin-right: 0;
+    }
+
+    .navbar li a {
+        font-size: 22px;
+        margin-right: 0;
+    }
+
+    section {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+        height: auto;
+    }
+
+    .intro {
+        padding: 0;
+    }
+
+    .intro h1 {
+        font-size: 40px;
+    }
+
+    .intro h2 {
+        font-size: 25px;
+    }
+
+    .download-resume a {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .dp img {
+        width: 200px;
+        margin-top: 20px;
+    }
+
+    .about-description {
+        padding: 30px;
+    }
+
+    .about-description h1 {
+        font-size: 40px;
+    }
+
+    .about-description h3 {
+        font-size: 20px;
+    }
+
+    .contact-form {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .contact-form h2 {
+        font-size: 35px;
+        margin: 0 auto 20px auto;
+    }
+
+    .contact-details div input {
+        width: 80%;
+        margin-left: 0;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .contact-details button {
+        margin-left: 0;
+        font-size: 18px;
+    }
+
+    .social-icons-home,
+    .social-icons-contact {
+        justify-content: center;
+        padding-left: 0;
+        flex-wrap: wrap;
+    }
+
+    .social-icons-contact a {
+        font-size: 22px;
+        margin: 10px;
+    }
+}
